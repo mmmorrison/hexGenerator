@@ -1,1 +1,5 @@
-document.write("woeht2ot4")
+function getColor() {
+  return '#' + 
+};
+
+document.write(getColor());
