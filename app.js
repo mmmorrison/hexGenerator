@@ -1,5 +1,5 @@
 function getColor() {
-  return '#' + 
+  return '#' + Math.random();
 };
 
 document.write(getColor());
