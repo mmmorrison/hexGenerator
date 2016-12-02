@@ -3,8 +3,14 @@ function getColor() {
 };
 
 function setBackground() {
-  var backgrounColor = getColor();
-  document.body.style.background = backgrounColor;
+  var backgroundColor = getColor();
+  document.body.style.background = backgroundColor;
 }
 
 setBackground();
+
+document.body.onkeyup = function(e) {
+  if (e.keyCody = 32) {
+    setBackground();
+  }
+};
