@@ -13,7 +13,7 @@ setBackground();
 
 
 document.body.onkeyup = function(e) {
-  if (e.keyCody = 32) {
+  if (e.keyCode == 32) {
     document.getElementsByClassName('hexColor').innerHTML = "test"
     setBackground();
   }
