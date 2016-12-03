@@ -5,18 +5,16 @@ function getColor() {
 function setBackground() {
   var backgroundColor = getColor();
   document.body.style.background = backgroundColor;
-}
+  document.getElementById('hexColor').innerHTML = backgroundColor;
+};
 
-function displayHex() {
-  document.write(getColor());
-}
 
-displayHex();
 setBackground();
 
 
-// document.body.onkeyup = function(e) {
-//   if (e.keyCody = 32) {
-//     setBackground();
-//   }
-// };
+document.body.onkeyup = function(e) {
+  if (e.keyCody = 32) {
+    document.getElementsByClassName('hexColor').innerHTML = "test"
+    setBackground();
+  }
+};

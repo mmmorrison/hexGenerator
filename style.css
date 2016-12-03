@@ -1,7 +1,11 @@
 body{
   font-family: 'Abril Fatface', cursive;
   font-size: 4em;
+}
+#hexColor{
   top: 30%;
   left: 40%;
   position: absolute;
+  height: 50vh;
+  width: 25vw;
 }
