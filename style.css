@@ -1,6 +1,7 @@
 body{
   font-family: 'Abril Fatface', cursive;
   font-size: 4em;
+  transition: all .5s ease;
 }
 #hexColor{
   top: 30%;
